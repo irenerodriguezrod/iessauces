@@ -18,7 +18,7 @@ public class EJ01 {
 		n3=teclado.nextInt();
 		
 		if (n1==n2 && n2==n3 && n1==n3) {
-			Syste.out.print("Los tres números son iguales.");
+			System.out.print("Los tres números son iguales.");
 		}
 		else { //else if (n1!=n2 && n2!=n3 && n1!=n3) {
 			if (n1!=n2 && n2!=n3 && n1!=n3) {
